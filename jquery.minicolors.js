@@ -668,6 +668,7 @@
 
     // Parses a string and returns a valid hex string when possible
     function parseHex(string, expand) {
+        if (string === 'transparent') return '';
         string = string.replace(/[^A-F0-9]/ig, '');
         if( string.length !== 3 && string.length !== 6 ) return '';
         if( string.length === 3 && expand ) {
