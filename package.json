@@ -1,6 +1,6 @@
 {
   "name": "shopify-jquery-minicolors",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Cory LaViska",
   "description": "Fork of jQuery MiniColors Plugin",
   "main": "jquery.minicolors.js",
